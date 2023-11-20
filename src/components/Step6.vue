@@ -13,6 +13,7 @@ export default {
 }
 </script>
 
+
 <template>
   <button @click="toggle">toggle</button>
   <h1 v-if="awesome">Vue is awesome!</h1>
