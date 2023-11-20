@@ -9,6 +9,10 @@
       <router-link to="/step5">Form bindings</router-link>
       <router-link to="/step6">Conditional rendering</router-link>
       <router-link to="/step7">List rendering</router-link>
+      <router-link to="/step8">Computed Property</router-link>
+      <router-link to="/step9">Lifecycle and Template Refs</router-link>
+      <router-link to="/step10">Watchers</router-link>
+      <router-link to="/step11">Components</router-link>
     </nav>
     <!--<div class="wrapper">
       <Home msg="Hello from App.vue" />
@@ -26,7 +30,7 @@ nav {
   margin-bottom: 2rem;
   border: 1px solid lightsalmon;
   gap: 1rem;
-  padding: 10px 5px;
+  padding: 10px;
 }
 
 header {
