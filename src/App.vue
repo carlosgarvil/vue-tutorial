@@ -8,6 +8,7 @@
       <router-link to="/step4">Event Listeners</router-link>
       <router-link to="/step5">Form bindings</router-link>
       <router-link to="/step6">Conditional rendering</router-link>
+      <router-link to="/step7">List rendering</router-link>
     </nav>
     <!--<div class="wrapper">
       <Home msg="Hello from App.vue" />

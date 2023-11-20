@@ -9,7 +9,8 @@ const routes =[
     {   path: '/', name: 'Home', component: Home },
     {   path: '/step4', name: 'Step4', component: Step4},
     {   path: '/step5', name: 'Step5', component: Step5},
-    {   path: '/step6', name: 'Step6', component: Step6}
+    {   path: '/step6', name: 'Step6', component: Step6},
+    {   path: '/step7', name: 'Step7', component: Step7}
     ]
 
 const router = createRouter({
