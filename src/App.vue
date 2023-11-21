@@ -13,10 +13,10 @@
       <router-link to="/step9">Lifecycle and Template Refs</router-link>
       <router-link to="/step10">Watchers</router-link>
       <router-link to="/step11">Components</router-link>
+      <router-link to="/step12">Props</router-link>
+      <router-link to="/step13">Emits</router-link>
+      <router-link to="/step14">Slots</router-link>
     </nav>
-    <!--<div class="wrapper">
-      <Home msg="Hello from App.vue" />
-    </div>-->
   </header>
   <main>
     <router-view />
@@ -32,7 +32,9 @@ nav {
   gap: 1rem;
   padding: 10px;
 }
-
+nav > a{
+  padding: 5px ;
+}
 header {
   line-height: 1.5;
 }
@@ -46,7 +48,6 @@ header {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
     grid-column: 1 / span 2;
   }
 

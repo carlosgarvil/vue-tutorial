@@ -9,6 +9,9 @@ import Step8 from './components/Step8.vue'
 import Step9 from './components/Step9.vue'
 import Step10 from './components/Step10.vue'
 import Step11 from './components/Step11.vue'
+import Step12 from './components/Step12.vue'
+import Step13 from './components/Step13.vue'
+import Step14 from './components/Step14.vue'
 
 const routes =[
     {   path: '/', name: 'Home', component: Home },
@@ -20,6 +23,9 @@ const routes =[
     {   path: '/step9', name: 'Step9', component: Step9},
     {   path: '/step10', name: 'Step10', component: Step10},
     {   path: '/step11', name: 'Step11', component: Step11},
+    {   path: '/step12', name: 'Step12', component: Step12},
+    {   path: '/step13', name: 'Step13', component: Step13},
+    {   path: '/step14', name: 'Step14', component: Step14},
     ]
 
 const router = createRouter({
